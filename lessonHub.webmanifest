@@ -1,0 +1,20 @@
+{
+    "name": "LessonHub PWA",
+    "short_name": "lessonHub",
+    "description": "Progressive Web Application",
+    "icons": [
+        {
+            "src": "images/biology.jpeg",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/math.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#339AF0"
+}
