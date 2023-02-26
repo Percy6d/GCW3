@@ -1,4 +1,5 @@
 const cacheName = 'lessonHub'
+// caching all the local files needed to run the app offline
 const cacheFiles = [
   'index.html',
   'lessonHub.webmanifest',
