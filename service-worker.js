@@ -27,6 +27,7 @@ self.addEventListener('install', (e) => {
 })
 
 // CACHING NEW FILES
+// uses the files from the cache whenever possible, even if the device is online
 self.addEventListener('fetch', function (e) {
   e.respondWith(caches.match(e.request).then(function (r) {
     // Download the file if it is not available in the cache
