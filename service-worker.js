@@ -1,4 +1,4 @@
-const cacheName = 'after-school-lesson'
+const cacheName = 'lessonHub'
 const cacheFiles = [
   'index.html',
   'lessonHub.webmanifest',
