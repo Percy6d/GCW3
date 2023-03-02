@@ -244,6 +244,13 @@
                     return sortLesson
                 }
             },
+
+            created() {
+                // register service worker if browser supports it
+                if ("serviceWorker" in navigator) {
+                    navigator.serviceWorker.register("service-worker.js");
+                }
+            },
             computed:{
                 letterRegex(name){
                     let letters = /^[A-Za-z]+$/
